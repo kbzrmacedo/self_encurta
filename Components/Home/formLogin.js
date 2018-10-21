@@ -26,7 +26,7 @@ export default class FormLogin extends React.Component {
                     keyboarType='email-address'
                     returnKeyType='next'
                     autoCorret={false}
-                    onChange={(text) => { this.handleEmail(text) }}
+                    //onChange={(text) => { this.handleEmail(text) }}
                     onSubmitEditing={() => this.refs.txtPassword.focus()}
                 />
 
@@ -36,7 +36,7 @@ export default class FormLogin extends React.Component {
                     returnKeyType='go'
                     secureTextEntry
                     autoCorret={false}
-                    onChange={(text) => { this.handlePassword(text) }}
+                    //onChange={(text) => { this.handlePassword(text) }}
                     ref={"txtPassword"}
     
                 />
@@ -57,7 +57,7 @@ const styles = StyleSheet.create({
     input: {
         height: 40,
         backgroundColor: 'rgba(255,255,255,0.5)',
-        color: '#FFF',
+        color: '#000000',
         marginBottom: 20,
         paddingHorizontal: 10,
         marginLeft: 25,
